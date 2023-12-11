@@ -1,0 +1,141 @@
+<!--  -->
+.body{
+    font-family:"Poppin",sans-serif;
+    margin: auto;
+   
+}
+.bdy{
+    background-color:grey;
+}
+.head{
+    display: flex;
+    align-items: center;
+    padding-left:270px;
+}
+.logo{
+    width:40.42px;
+    height:51px;
+    padding-right: 8px;
+}
+header{
+    background-color: #562EFF;
+    display:flex;
+    align-items: center;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding-right: 35px;
+}
+.nav-img{
+    height:51px;
+    width:51px;
+}
+.idea{
+    font-size: 24;
+    color:white;
+}
+nav{
+    display:flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    padding-left: 408px;
+}
+/* top player */
+
+.top-pleyer{
+    padding-left: 20px;
+}
+
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.containar{
+    width: 870px;
+    height: 679 px;
+    margin-left:15%;
+    background-color: whitesmoke;
+}
+.player{
+    display: flex;
+    align-items: center;
+
+}
+.player-name{
+    margin-left: 20px;
+ 
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+/* Top Blog */
+.Blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.blog{
+    display: flex;
+    align-items: center;
+
+}
+.blog img{
+    height: 117px;
+    width: 177px;
+}
+.blog-info{
+    margin-left: 20px;
+
+}
+/* Lates Course */
+footer{
+    background-color: whitesmoke;
+    width:870px;
+    height:362px;
+    margin-left:180px;
+}
+.parent-div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.Course-1{
+    box-shadow: 2px 1px 2px 1px ;
+   margin-left: 20px;
+  width: 252.42px;
+  height: 269.79px;
+}
+.Courses img{
+    width: 224px;
+    height: 104px;
+   padding-left: 15px;
+   padding-top: 10px;
+}
+.course-info{
+    padding-left: 10px;
+}
+.icon{
+   
+    height: 11.81px; 
+
+}
+.icon-clock{
+   display: flex; 
+   justify-content: space-between;
+}
+
+.icon img,.clock img{
+    width: 12.39px;
+    height: 11.81px;
+}
+.clock{
+    background-color: coral;
+    border-radius: 5px;
+    padding-left: 2px;
+    margin-right:25px;
+   margin-bottom: 5px;
+
+}
